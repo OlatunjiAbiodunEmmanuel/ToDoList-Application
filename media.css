@@ -1,4 +1,4 @@
-@media (max-width: 414px){
+@media (orientation:portrait) and (max-width: 540px) {
     .aramide{
         width: 40%;
         background-color: blue;
@@ -15,11 +15,16 @@
         margin-top: 20px;
     }
     #light{
-    display: none;
-
+    /* display: none; */
+    /* border: 1px solid black; */
+    width: 20px;
+    /* margin-left: 0px; */
     }
     #dark{
-    display: none;
+    /* display: none; */
+    /* border: 1px solid black; */
+    width: 20px;
+    margin-left: 20px;
     }    
 }
 @media (max-width: 896px){
