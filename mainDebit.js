@@ -46,9 +46,7 @@ function collectDebit() {
     document.getElementById('debit').style.backgroundColor = '#1877f2';
     document.getElementById('debit').style.color = 'white';
   
-    
-  
-  
+
     but.onclick = function(){
     list.style.display = 'none';
     document.getElementById('debit').innerHTML = 

@@ -1,4 +1,3 @@
-// alert('Please enter your to-do list');
 
 function adds() {
 

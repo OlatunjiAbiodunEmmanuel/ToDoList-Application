@@ -57,7 +57,6 @@ function collectPersonal() {
     document.getElementById('peb').innerHTML = 
     Number(document.getElementById('peb').innerHTML) -1;
     if (document.getElementById('peb').innerHTML == '0') {
-      // document.getElementById('peb').innerHTML = 0;
       document.getElementById('readpid').style.display = 'none';
     }
     if (document.getElementById('pid').innerHTML =='0') {

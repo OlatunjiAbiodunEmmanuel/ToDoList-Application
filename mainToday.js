@@ -46,9 +46,6 @@ function collectToday() {
     document.getElementById('today').style.backgroundColor = '#1877f2';
     document.getElementById('today').style.color = 'white';
   
-    
-  
-  
     but.onclick = function(){
     list.style.display = 'none';
     document.getElementById('today').innerHTML = 
@@ -56,7 +53,6 @@ function collectToday() {
     document.getElementById('tsk').innerHTML = 
     Number(document.getElementById('tsk').innerHTML) -1;
     if (document.getElementById('tsk').innerHTML == '0') {
-      // document.getElementById('tsk').innerHTML = 0;
       document.getElementById('readtos').style.display = 'none';
     }
     if (document.getElementById('today').innerHTML =='0') {

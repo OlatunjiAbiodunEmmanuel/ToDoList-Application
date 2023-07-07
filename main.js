@@ -1,4 +1,3 @@
-// alert('Please enter your to-do list');
 
 function add() {
 
@@ -25,6 +24,7 @@ function addevent() {
   document.getElementById('personalList').style.display = 'none';
   document.getElementById('workList').style.display = 'none';
   document.getElementById('newNote').style.display = 'none';
+  document.getElementById('notereview').style.display = 'none';
   document.getElementById('summary').style.display = 'none';
 
 }

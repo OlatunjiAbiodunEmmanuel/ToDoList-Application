@@ -57,7 +57,6 @@ function collectFrnd() {
     document.getElementById('feb').innerHTML = 
     Number(document.getElementById('feb').innerHTML) -1;
     if (document.getElementById('feb').innerHTML == '0') {
-      // document.getElementById('feb').innerHTML = 0;
       document.getElementById('readfid').style.display = 'none';
     }
     if (document.getElementById('fid').innerHTML =='0') {

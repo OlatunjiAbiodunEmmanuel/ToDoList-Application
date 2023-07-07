@@ -57,7 +57,6 @@ function collectWork() {
     document.getElementById('web').innerHTML = 
     Number(document.getElementById('web').innerHTML) -1;
     if (document.getElementById('web').innerHTML == '0') {
-      // document.getElementById('web').innerHTML = 0;
       document.getElementById('readwid').style.display = 'none';
     }
     if (document.getElementById('wid').innerHTML =='0') {
