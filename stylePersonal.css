@@ -1,0 +1,27 @@
+#personalList{
+    display: none;
+    width: 90%;
+    /* height: 90%; */
+    /* border: 2px solid red; */
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 0px 0px 5px white;
+    background-color:#15202b ; */
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#pid{
+    background-color: whitesmoke;
+    /* width: 13px; */
+    padding: 4px;
+    display: none;
+    border-radius: 100%;
+}
+#peb{
+    display: none;
+    border-radius: 100%;
+    padding: 4px;
+}
+#readpid{
+    display: none;
+}

@@ -1,0 +1,75 @@
+#summary{
+    display: none;
+    margin-top: 1.5%;
+}
+#sum1{
+    width: 30%;
+    font-size: small;  
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: orchid;
+}
+#sum2{
+    width: 30%;
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: orange;
+}
+#sum3{
+    width: 30%;
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: pink;
+}
+#sum4{
+    width: 30%;
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: skyblue;
+}
+#sum5{
+    width: 30%;
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: yellowgreen;
+}
+#sum6{
+    width: 30%;
+    /* height: 30vh; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: #45d976;
+}
+#sum7{
+    width: 30%;
+    /* height: 10vh; */
+    margin-left: 35%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #15202b;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    background-color: #1d9bf0;
+}
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}

@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styleWork.css">
+    <link rel="stylesheet" href="styleUpcoming.css">
+    <link rel="stylesheet" href="styleToday.css">
+    <link rel="stylesheet" href="styleDebit.css">
+    <link rel="stylesheet" href="styleSummary.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="stylePersonal.css">
+    <link rel="stylesheet" href="styleFrnd.css">
+    <link rel="stylesheet" href="styleNote.css">
+    <link rel="stylesheet" href="styleSmall.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Pacifico&display=swap" rel="stylesheet">
@@ -13,26 +22,188 @@
     <title>To-Do List</title>
 </head>
 <body id="all">
-    <h1 class="type">To-Do List</h1>
-    <main id="hold">
-        <button id="light" onclick="on()"><i class="fa-sharp fa-solid fa-lightbulb"></i></button> 
-        <button id="dark" onclick="off()"><i class="fa-solid fa-moon"></i></button><br>
+    <div class="top">
+        <h1 class="type" id="kin1">To-Do List</h1>
+        <div class="options">
+            <button id="AddEvent" onclick="summary()">Summary</button>
+            <button id="AddEvent" onclick="addevent()">Add Event</button>
+            <button id="AddEvent" onclick="addnote()">Add Note</button>
+        </div>
+        
+    </div>
+<div class="all2">
+    <aside id="aside">
+        <div style="margin-left:35% ;" id="kin2">Menu</div>
+        <input type="text" placeholder="Search" id="search"> 
+        <button id="searchin" onclick="">Find</i></button>
 
-        <input placeholder="Enter your task" id="n1">
-        <button onclick="add()" class="aramide"> Add to list</button> <br> <br>
+        <div id="task">
+            
+            <div class="taskk" id="kin3">Task</div>
+            <div><button  onclick="upcoming()">Upcoming<sup id="upc">0</sup></button>  <button id="readUp">Done <sup id="strike">0</sup></button></div>
+            <div><button  onclick="today()">Today <sup id="today">0</sup></button> <button id="readtos">Done <sup id="tsk">0</sup></button></div>
+            <div><button  onclick="debt()">Debt<sup id="debit">0</sup></button> <button id="readDebit">Done <sup id="deb">0</sup></div> 
+            <div><button  onclick="frnd()">Friends Reminder <sup id="fid">0</sup></button><button id="readfid">Done <sup id="feb">0</sup></button></div> 
+        </div>
+
+        <div class="line"></div>
+
+
+        <div id="list">
+            <div class="listt" id="kin4">List</div>
+            <div><button onclick="personal()">Personal<sup id="pid">0</sup></button><button id="readpid">Done <sup id="peb">0</sup></div>
+            <div><button onclick="work()">Work<sup id="wid">0</sup></button><button id="readwid">Done <sup id="web">0</sup></div>
+            <div><button onclick="note()">Notes<sup id="fidd">0</sup></button></div>
+        </div>
+
+        <div class="line"></div>
+        <div id="set">
+            <button id="settings" onclick="settings()">Settings</button>
+            <button id="light" onclick="on()"><i id="oni" class="fa-sharp fa-solid fa-lightbulb"></i></button> 
+            <button id="dark" onclick="off()"><i class="fa-solid fa-moon"></i></button> 
+            <button id="done" onclick="done()">Done</button>
+        </div>
+            
+    </aside>
+
+    <main id="holds">
+        <button id="lights" onclick="ons()"><i class="fa-sharp fa-solid fa-lightbulb"></i></button> 
+        <button id="darks" onclick="offs()"><i class="fa-solid fa-moon"></i></button><br>
+
+        <input placeholder="Enter your task" id="n1s">
+        <button onclick="adds()" class="aramides"> Add to list</button> <br> 
 
         
-        <ol id="goo">
+        <ol id="goos">
    
         </ol>
 
-
     </main>
 
+    <main id="content">
+        
+        <div  id="hold">
+            <div class="subject">Add Event</div>
+            <input placeholder="Enter your task" id="n1">
+            <button onclick="add()" class="aramide"> Add to list</button>
+    
+            <div class="carts">
+                <button id="edit" onclick="collectUpComing()" id="hoo">Upcoming Event</button>
+                <button id="edit" onclick="collectToday()">Today</button>
+                <button id="edit" onclick="collectDebit()">Debt</button>
+                <button id="edit" onclick="collectFrnd()">Friends Reminder</button>
+                <button id="edit" onclick="collectPersonal()">Personal</button>
+                <button id="edit" onclick="collectWork()">Work</button>
+            </div>
+
+            <ol id="goo">
+       
+            </ol>
+
+            <div><button id="clear">Clear</button></div>
+        </div>
+
+        <div id="upcomingList">
+            <div class="subject">Upcoming List</div>
+            <ol id="ji">
+
+            </ol>
+
+        </div>
+
+        <div id="todayList">
+            <div class="subject">Today's List</div>
+            <ol id="tos">
+
+            </ol>
+
+        </div>
+
+        <div id="debitList">
+            <div class="subject">Debt List</div>
+            <ol id="dos">
+
+            </ol>
+
+        </div>
+
+        <div id="frndList">
+            <div class="subject">Friend's Reminder List</div>
+            <ol id="fos">
+
+            </ol>
+
+        </div>
+
+        <div id="personalList">
+            <div class="subject">Personal List</div>
+            <ol id="pos">
+
+            </ol>
+
+        </div>
+
+        <div id="workList">
+            <div class="subject">Work List</div>
+            <ol id="wos">
+
+            </ol>
+
+        </div>
+
+        <div id="newNote">
+            <div class="subject">New Note</div>
+            <div>
+                <textarea name="" id="area" cols="30" rows="10" placeholder="Type your note"></textarea>
+                <div><button id="areabut" onclick="addnt()">Add Note</button></div>
+
+            </div>
+
+        </div>
+
+        <div id="notereview">
+            <div class="subject">Notes</div>
+            <div id="neww">
+
+            </div>
+
+        </div>
+        <div id="summary">
+            <div class="subject">Summary</div>
+            <div>
+                <div id="flex">
+                    <div id="sum1"></div>
+                    <div id="sum2"></div>
+                    <div id="sum3"></div>
+                </div>
+                <div id="flex">
+                    <div id="sum4"></div>
+                    <div id="sum5"></div>
+                    <div id="sum6"></div>
+                </div>
+            </div>
+            <div id="sum7"></div>
+        </div>
 
 
 
+
+
+
+
+    </main>
+</div>
 
 <script src="main.js"></script>
+<script src="mainToday.js"></script>
+<script src="mainUpcoming.js"></script>
+<script src="mainDebit.js"></script>
+<script src="mainFrnd.js"></script>
+<script src="mainPersonal.js"></script>
+<script src="mainSettings.js"></script>
+<script src="mainWork.js"></script>
+<script src="mainNote.js"></script>
+<script src="mainSummary.js"></script>
+<script src="mainSmall.js"></script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+
+#holds{
+    width: 90vw;
+    position: relative;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #B2E0A6;
+    margin: auto;
+    margin-top: 5%;
+}
+#n1s{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    border: none;
+    height: 35px;
+    outline-color: #1d9bf0;
+}
+.aramides{
+    height: 35px;
+    width: 30%;
+    border-radius: 5px;
+    outline-color: #1d9bf0;
+    border: none;
+    background-color: #1d9bf0;
+    color: white;
+}
+#jujs{
+    position: absolute;
+    right: 0;
+}
+#lights{
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: #B2E0A6;
+    color: white;
+    border: none;
+    border-radius: 25%;
+}
+#darks{
+    background-color: #B2E0A6;
+    color: rgba(0, 0, 0, 0.788);
+    border: none;
+}
+.types{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Pacifico', cursive;
+    margin-left: 25%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+/* #alls{
+    background: gray;
+} */

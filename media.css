@@ -1,101 +1,286 @@
 @media (orientation:portrait) and (max-width: 540px) {
-    .aramide{
+    body{
+
+        transition: transform 3s ease;
+        transform: rotate(360deg);
+    }
+    .aramides{
         width: 40%;
-        background-color: blue;
+        background-color:#1d9bf0;
         margin: auto;
         margin-top: 10px;
     }
-    #hold{
+    #aside{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    #content{
+        display: none;
+    }
+    #holds{
         display: flex;
         flex-direction: column;
     }
-    #n1{
+    #n1s{
         margin: auto;
         width: 40%;
         margin-top: 20px;
     }
-    #light{
-    /* display: none; */
-    /* border: 1px solid black; */
+    #lights{
     border-radius: 50%;
     width: 20px;
-    /* margin-left: 0px; */
     }
-    #dark{
-    /* display: none; */
-    /* border: 1px solid black; */
+    #darks{
     width: 20px;
     border-radius: 50%;
     margin-left: 20px;
-    }    
+    } 
 }
-@media (max-width: 896px){
-    .aramide{
-        width: 30%;
-        background-color: blue;
-    }
-    #n1{
-        width: 50%;
-    }
-    #light{
-        margin-left: 5%;
-        margin-top: 2%;
 
-    }
-}
-@media (max-width: 667px){
-    .aramide{
-        width: 30%;
-        background-color: blue;
-    }
-    #n1{
-        width: 50%;
-    }
-    #light{
-        margin-left: 8%;
-        margin-top: 2%;
-
-    }
-}
-@media (max-width: 915px){
-    .aramide{
-        width: 31%;
-
-    }
-    #n1{
-        width: 50%;
-    }
-    #light{
-        margin-left: 5.5%;
-        margin-top: 2%;
-
-    }
-}
 @media (max-width: 720px){
-    .aramide{
-        width: 31%;
+    body{
+        transition: transform 3s ease;
+        transform: rotate(360deg);
+    }
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1876f25e;
+    height: 15vh;
 
-    }
-    #n1{
-        width: 50%;
-    }
-    #light{
-        margin-left: 7%;
-        margin-top: 2%;
-
-    }
 }
-/* @media (max-width: 540px){
-    .aramide{
-        width: 41%;
+#AddEvent{
+    font-size: medium;
+    width: 30%;
+    height: 10vh;
+}
+.options{
+    width: 50%;
+    margin-right: 1%;
+}
+.type{
+    margin-left: 10%;
+}
+#aside{
+    width: 30%;
+}
+#aside button{
+    font-size: medium;  
+}
+#search{
+    height: 8vh;
 
-    }
-    #n1{
-        width: 50%;
-    }
-    #light{
-        margin-left: 7%;
-        margin-top: 4%;
+}
+#content{
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+#hold{
+    width: 90%;
+    margin-top: 30%; 
+}
+.aramide{
+    font-size: small;  
+    height: 35px;
+    width: 23%;
+}
+.carts{
+    margin-left: 10%;
+}
+#edit{
+    font-size: medium;  
+}
+#clear{
+    margin-left: 40%;
+}
 
+}
+
+
+@media (max-width: 896px){
+    body{
+        transition: transform 3s ease;
+        transform: rotate(360deg);
     }
-} */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1876f25e;
+    height: 15vh;
+
+}
+#AddEvent{
+    font-size: medium;
+    width: 30%;
+    height: 10vh;
+}
+.options{
+    width: 50%;
+}
+.type{
+    margin-left: 10%;
+}
+#aside{
+    width: 30%;
+}
+#aside button{
+    font-size: medium;  
+}
+#search{
+    height: 8vh;
+
+}
+#content{
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+#hold{
+    width: 90%;
+    margin-top: 30%; 
+}
+.aramide{
+    font-size: small;  
+    height: 35px;
+    width: 23%;
+}
+.carts{
+    margin-left: 10%;
+}
+#edit{
+    font-size: medium;  
+}
+#clear{
+    margin-left: 40%;
+}
+}
+
+@media (max-width: 915px){
+    body{
+        transition: transform 3s ease;
+        transform: rotate(360deg);
+    }
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1876f25e;
+    height: 15vh;
+
+}
+#AddEvent{
+    font-size: medium;
+    width: 30%;
+    height: 10vh;
+}
+.options{
+    width: 50%;
+    margin-right: 1%;
+}
+.type{
+    margin-left: 10%;
+}
+#aside{
+    width: 30%;
+}
+#aside button{
+    font-size: medium;  
+}
+#search{
+    height: 8vh;
+
+}
+#content{
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+#hold{
+    width: 90%;
+    margin-top: 30%; 
+}
+.aramide{
+    font-size: small;  
+    height: 35px;
+    width: 23%;
+}
+.carts{
+    margin-left: 10%;
+}
+#edit{
+    font-size: medium;  
+}
+#clear{
+    margin-left: 40%;
+}
+}
+@media (max-width: 1500px){
+    body{
+        transition: transform 3s ease;
+        transform: rotate(360deg);
+    }
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1876f25e;
+    height: 15vh;
+
+}
+#AddEvent{
+    font-size: medium;
+    width: 30%;
+    height: 10vh;
+}
+.options{
+    width: 50%;
+    margin-right: 1%;
+}
+.type{
+    margin-left: 10%;
+}
+#aside{
+    width: 30%;
+}
+#aside button{
+    font-size: medium;  
+}
+#search{
+    height: 8vh;
+
+}
+#content{
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+#hold{
+    width: 90%;
+    margin-top: 30%; 
+}
+.aramide{
+    font-size: small;  
+    height: 35px;
+    width: 23%;
+}
+.carts{
+    margin-left: 10%;
+}
+#edit{
+    font-size: medium;  
+}
+#clear{
+    margin-left: 40%;
+}
+}
+
+
