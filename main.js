@@ -17,7 +17,6 @@ function add() {
 }
 function addevent() {
   document.getElementById('todayList').style.display = 'none';
-  document.getElementById('hold').style.display = 'block';
   document.getElementById('upcomingList').style.display = 'none';
   document.getElementById('debitList').style.display = 'none';
   document.getElementById('frndList').style.display = 'none';
@@ -26,5 +25,7 @@ function addevent() {
   document.getElementById('newNote').style.display = 'none';
   document.getElementById('notereview').style.display = 'none';
   document.getElementById('summary').style.display = 'none';
+  document.getElementById('hold').style.display = 'block';
+
 
 }
