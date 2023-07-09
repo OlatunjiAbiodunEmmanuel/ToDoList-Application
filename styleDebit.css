@@ -1,11 +1,8 @@
 #debitList{
     display: none;
     width: 90%;
-    /* height: 90%; */
-    /* border: 2px solid red; */
     border-top-left-radius: 40px;
-    /* box-shadow: 0px 0px 5px white;
-    background-color:#15202b ; */
+    box-shadow: 0px 0px 5px #15202b;
     border-bottom-right-radius: 40px;
     margin-left: 5%;
     margin-top: 3%;

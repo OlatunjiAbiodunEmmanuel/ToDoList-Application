@@ -2,13 +2,13 @@
     display: none;
     width: 90%;
     border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #15202b;
     border-bottom-right-radius: 40px;
     margin-left: 5%;
     margin-top: 3%;
 }
 #pid{
     background-color: whitesmoke;
-    /* width: 13px; */
     padding: 4px;
     display: none;
     border-radius: 100%;

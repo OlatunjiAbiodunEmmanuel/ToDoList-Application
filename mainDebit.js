@@ -93,8 +93,6 @@ function collectDebit() {
     document.getElementById('notereview').style.display = 'none';
     document.getElementById('summary').style.display = 'none';
 
-
-
   }
   
       
