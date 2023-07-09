@@ -38,6 +38,7 @@ listt.appendChild(henn);
 document.getElementById('tos').appendChild(listt);
 
 listt.style.wordBreak = 'break-word';
+listt.style.fontFamily = "'Hanken Grotesk', sans-serif";
 listt.style.fontSize = '20px';
 can11.style.marginRight = '3%';
 butt.style.marginRight = '3%';
@@ -100,7 +101,9 @@ var out = document.getElementById('n1s').value = zero;
 
   
 list.style.wordBreak = 'break-word';
+listt.style.wordBreak = 'break-word';
 list.style.fontSize = '20px';
+list.style.fontFamily = "'Hanken Grotesk', sans-serif";
 can1.style.marginRight = '3%';
 but.style.marginRight = '3%';
 but.style.marginLeft = '3%';
