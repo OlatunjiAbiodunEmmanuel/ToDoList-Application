@@ -2,7 +2,8 @@
     body{
 
         transition: transform 3s ease;
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
+        /* transform: scale(2.0, 3); */
     }
     .aramides{
         width: 40%;
@@ -44,7 +45,8 @@
 @media (max-width: 720px){
     body{
         transition: transform 3s ease;
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
+        /* transform: scale(2); */
     }
 .top{
     display: flex;
@@ -107,7 +109,8 @@
 @media (max-width: 896px){
     body{
         transition: transform 3s ease;
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
+        /* transform: scale(2); */
     }
 .top{
     display: flex;
@@ -167,7 +170,8 @@
 @media (max-width: 915px){
     body{
         transition: transform 3s ease;
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
+        /* transform: scale(2); */
     }
 .top{
     display: flex;
@@ -227,7 +231,7 @@
 @media (max-width: 1500px){
     body{
         transition: transform 3s ease;
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
     }
 .top{
     display: flex;

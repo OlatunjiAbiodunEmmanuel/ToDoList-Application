@@ -146,7 +146,7 @@ can1.innerHTML = '-';
 can11.innerHTML = '-';
 
 document.getElementById('tsk').innerHTML = 
-Number(document.getElementById('tsk').innerHTML) + 1;  
+Number(document.getElementById('tsk').innerHTML) - 1;  
 document.getElementById('tsk').style.display = 'inLine';
 document.getElementById('tsk').style.backgroundColor = '#1877f2';
 document.getElementById('tsk').style.color = 'white';
