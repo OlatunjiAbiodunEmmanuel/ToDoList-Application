@@ -1,4 +1,3 @@
-
 function add() {
 
   var list = document.createElement('li');

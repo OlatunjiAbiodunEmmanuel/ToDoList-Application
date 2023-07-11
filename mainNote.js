@@ -9,6 +9,7 @@ function addnote() {
     document.getElementById('newNote').style.display = 'block';
     document.getElementById('notereview').style.display = 'none';
     document.getElementById('summary').style.display = 'none';
+    document.getElementById('area').value ='';
 
 }
 
@@ -17,16 +18,15 @@ function addnt() {
     list.id = 'lit'
 
     var can1 = document.createElement('button');
+
     var cancel = document.createTextNode('Edit Note');
     can1.appendChild(cancel);
-    // list.appendChild(can1);
 
 
     var but = document.createElement('button');
     but.id = 'jujd';
     var del = document.createTextNode('Delete');
     but.appendChild(del);
-    // list.appendChild(but);
 
     var out = document.getElementById('area').value;
     
@@ -42,6 +42,8 @@ function addnt() {
 
 
 
+
+
     var zero = '';
     document.getElementById('area').value = zero;
 
@@ -50,9 +52,13 @@ function addnt() {
     list.style.wordBreak = 'break-word';
     list.style.fontFamily = "'Hanken Grotesk', sans-serif";
     but.style.marginRight = '3%';
+    but.style.backgroundColor = 'red';
+    but.style.border = 'none';
+    but.style.borderRadius = '3px';
     can1.style.marginRight = '3%';
-    can1.style.backgroundColor = 'gray';
+    can1.style.backgroundColor = 'yellowGreen';
     can1.style.border = 'none';
+    can1.style.marginLeft = '5%';
     can1.style.borderRadius = '3px';
     list.style.marginBottom = '10px';
     list.style.marginLeft = '5%';
@@ -63,6 +69,7 @@ function addnt() {
     list.style.position = 'relative';
     list.style.padding = '30px';
     list.style.marginTop ='2%';
+    list.style.border = '2px solid #1d9bf0'
 
 
     document.getElementById('fidd').innerHTML = 
@@ -91,6 +98,10 @@ function addnt() {
     can1.onclick = function(){
         var edit = document.getElementById('lit').innerText;
         document.getElementById('area').value = edit;
+        
+
+// document.getElementById('area').value ='';
+
         document.getElementById('notereview').style.display = 'none';
         list.style.display = 'none';
         but.style.display ='none';
@@ -101,12 +112,11 @@ function addnt() {
         if (document.getElementById('fidd').innerHTML == '0') {
           document.getElementById('fidd').style.display = 'none';
         }
-
-
+        
 
     }
 
-
+    
 
 
 
