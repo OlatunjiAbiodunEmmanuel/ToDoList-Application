@@ -5,6 +5,7 @@ function settings() {
     document.getElementById('settings').style.display = 'none';
   }
   function off() {
+    document.getElementById('holds').style.transition ='3s';
     document.getElementById('all').style.transition = '3s';
     document.getElementById('aside').style.transition ='3s';
     document.getElementById('oni').style.transition ='3s';
@@ -14,6 +15,10 @@ function settings() {
     document.getElementById('all').style.backgroundColor = '#15202b';    
     document.getElementById('aside').style.background = '#15202b';
     document.getElementById('oni').style.color = 'white'; 
+
+    document.getElementById('holds').style.background = '#15202b';
+    document.getElementById('holds').style.boxShadow = '0px 0px 5px white';
+
 
     document.getElementById('aside').style.boxShadow= '0px 0px 5px white';
     document.getElementById('content').style.border= '2px solid #38444d';
@@ -42,6 +47,7 @@ function settings() {
   }
   
   function on() {
+    document.getElementById('holds').style.transition ='3s';
     document.getElementById('all').style.transition ='3s';
     document.getElementById('aside').style.transition ='3s';
     document.getElementById('oni').style.transition ='3s';  
@@ -52,6 +58,9 @@ function settings() {
     document.getElementById('aside').style.background = '#f7f9f9';
     document.getElementById('oni').style.color = 'black'; 
 
+
+    document.getElementById('holds').style.background = '#bfc4c4';
+    document.getElementById('holds').style.boxShadow = '0px 0px 5px #15202b';
 
     document.getElementById('aside').style.boxShadow = '0px 0px 5px #15202b';
     document.getElementById('content').style.boxShadow = '0px 0px 5px #15202b';

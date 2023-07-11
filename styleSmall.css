@@ -4,11 +4,11 @@
     position: relative;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    background-color: #B2E0A6;
+    background-color: #bfc4c4;
+    box-shadow: 0px 0px 5px #15202b;
     margin: auto;
     margin-top: 5%;
     font-family: 'Hanken Grotesk', sans-serif;
-
 }
 #n1s{
     border-radius: 8px;
@@ -37,13 +37,13 @@
 #lights{
     margin-left: 5%;
     margin-top: 1%;
-    background-color: #B2E0A6;
+    /* background-color: #B2E0A6; */
     color: white;
     border: none;
-    border-radius: 25%;
+    /* border-radius: 25%; */
 }
 #darks{
-    background-color: #B2E0A6;
+    /* background-color: #B2E0A6; */
     color: rgba(0, 0, 0, 0.788);
     border: none;
 }
